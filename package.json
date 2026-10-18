@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "next build && node scripts/prepare-cloudflare-pages.mjs",
     "start": "npx serve@latest out",
     "lint": "eslint"
   },
